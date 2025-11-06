@@ -10,6 +10,9 @@ conda activate streamlit_pyspark
 
 https://adoptium.net/es/download
 
+# Ejemplo de ejecución 
+streamlit run hello.py
+
 # Instalar dependencias
 
 pip install streamlit pyspark pandas plotly scikit-learn openpyxl
@@ -31,3 +34,4 @@ proyecto_ventas_autos/
 ├── **init**.py
 ├── data_processing.py # Procesamiento de datos
 └── visualization.py # Funciones de visualización
+
